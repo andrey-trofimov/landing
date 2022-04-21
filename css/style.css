@@ -10,6 +10,13 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+div > img {
+  display: block;
+}
+
+>>>>>>> mobile
 body,
 .button,
 .white-building li span {
@@ -157,7 +164,11 @@ h2,
   .wrapper-2 {
     max-width: 1440px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 0;
+=======
+    /* padding: 0; */
+>>>>>>> mobile
   }
 }
 
@@ -271,7 +282,13 @@ h2,
 .white-building div:nth-last-of-type(2),
 .white-building > div:nth-last-of-type(2) input,
 .bottom-black-form form,
+<<<<<<< HEAD
 .bottom-black-form input {
+=======
+.bottom-black-form input,
+.bg131313,
+.half-131313::before {
+>>>>>>> mobile
   background-color: #131313;
 }
 
@@ -282,6 +299,10 @@ h2,
   height: 516px;
   padding: 191px 0 0;
   position: relative;
+<<<<<<< HEAD
+=======
+  margin-bottom: -1px;
+>>>>>>> mobile
 }
 
 @media screen and (min-width: 1441px) {
@@ -341,10 +362,19 @@ h2,
 
 /* =========================== Section-projects ======================== */
 .section-projects-flex {
+<<<<<<< HEAD
   padding: 107px 0 415px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+=======
+  height: 552px;
+  padding: 107px 0 65px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+>>>>>>> mobile
 }
 
 .section-projects h2,
@@ -376,21 +406,39 @@ input,
   line-height: 27px;
 }
 
+<<<<<<< HEAD
 .projects-text {
   max-width: 442px;
   width: 30vw;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+=======
+.section-projects p {
+  margin-right: 20px;
+>>>>>>> mobile
 }
 
 .projects-slider-nav {
   margin-top: auto;
+<<<<<<< HEAD
   align-content: flex-end;
+=======
+  /* align-content: flex-end; */
+>>>>>>> mobile
   width: 206px;
   padding-top: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.projects-title,
+.projects-details {
+  width: 34vw;
+  max-width: 450px;
+}
+
+>>>>>>> mobile
 .projects-details {
   margin-top: 15px;
   display: flex;
@@ -398,6 +446,10 @@ input,
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
+=======
+.projects-details,
+>>>>>>> mobile
 .section-projects h3,
 .section-camera p,
 .repair h3,
@@ -416,6 +468,7 @@ input,
 
 .projects-details p {
   line-height: 21px;
+<<<<<<< HEAD
 }
 
 .projects-details div {
@@ -430,6 +483,14 @@ input,
   .section-projects h2 {
     margin-top: 0px;
   }
+=======
+  margin-right: 20px;
+}
+
+.projects-details div {
+  width: 12vw;
+  margin-right: 1vw;
+>>>>>>> mobile
 }
 
 .projects-slider-nav li {
@@ -475,7 +536,11 @@ input,
 
 .projects-picture {
   width: 47vw;
+<<<<<<< HEAD
   /* min-width: 680px; */
+=======
+  max-width: 680px;
+>>>>>>> mobile
 }
 
 .projects-picture ul {
@@ -503,6 +568,7 @@ input,
   box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   .section-projects-flex {
     display: block;
@@ -517,15 +583,108 @@ input,
   .projects-text {
     flex-direction: row;
     flex-wrap: wrap;
+=======
+.projects-picture > div {
+  position: relative;
+}
+
+.projects-picture > div > img {
+  width: 100%;
+}
+
+.projects-picture > div > img:first-of-type {
+  display: none;
+}
+
+.projects-picture > div > .nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -32px;
+  max-width: none;
+  /* z-index: 2; */
+}
+
+.projects-picture > div button {
+  height: 36px;
+  width: 36px;
+  margin: 14px;
+  border-radius: 50%;
+  box-shadow: none;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1600px) {
+  .projects-details {
+    max-width: 210px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .projects-picture li {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-details div {
+    width: 13vw;
+    padding-right: 2vw;
+  }
+  .section-projects h2 {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .projects-title {
+    order: 1;
+  }
+
+  .projects-details {
+    order: 2;
+  }
+
+  .projects-slider-nav {
+    order: 4;
+  }
+
+  .projects-picture {
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-projects-flex {
+    height: auto;
+  }
+
+  .projects-picture {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+    /* justify-content: space-between; */
+>>>>>>> mobile
   }
 
   .projects-title,
   .projects-details {
+<<<<<<< HEAD
     flex-basis: 47%;
+=======
+    width: 100%;
+    max-width: none;
+>>>>>>> mobile
   }
 
   .projects-details {
     margin-top: 0;
+<<<<<<< HEAD
   }
 
   .projects-slider-nav {
@@ -537,6 +696,38 @@ input,
 /* =========================== Section camera ======================== */
 .section-camera {
   margin-top: -330px;
+=======
+    justify-content: space-between;
+  }
+
+  .projects-slider-nav {
+    margin: 20px auto;
+  }
+
+  .projects-details div {
+    width: 24%;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+/* =========================== Section camera ======================== */
+
+.half-131313 {
+  position: relative;
+  padding-top: 28px;
+}
+
+.half-131313::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+>>>>>>> mobile
 }
 
 .video {
@@ -556,7 +747,10 @@ input,
   top: 50%;
   margin-top: -42px;
   width: 100%;
+<<<<<<< HEAD
   /* height: 434px; */
+=======
+>>>>>>> mobile
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -573,8 +767,13 @@ input,
 }
 
 .section-camera h2 {
+<<<<<<< HEAD
   height: 68px;
   margin-bottom: 28px;
+=======
+  height: 70px;
+  margin: -1px 0;
+>>>>>>> mobile
   background: url(../images/camera.svg) bottom center no-repeat;
 }
 
@@ -635,7 +834,11 @@ form button {
   width: 231px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
+=======
+@media screen and (max-width: 850px) {
+>>>>>>> mobile
   .section-camera input {
     width: 100%;
   }
@@ -753,6 +956,13 @@ form button {
   margin: -10px 30px 0px;
 }
 
+<<<<<<< HEAD
+=======
+.repair-overhaul > img:nth-child(1) {
+  display: none;
+}
+
+>>>>>>> mobile
 @media screen and (max-width: 768px) {
   .repair div div:nth-of-type(1) {
     margin: 0px 10px;
@@ -988,8 +1198,13 @@ form button {
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .fantasies div > div:nth-last-child(2),
 .fantasies div > div:last-child {
+=======
+.fantasies div > div:nth-child(2),
+.fantasies div > div:nth-child(3) {
+>>>>>>> mobile
   width: 24.5vw;
   max-width: 353px;
   margin-left: 43px;
@@ -998,10 +1213,17 @@ form button {
 .fantasies div > div img:first-child,
 .fantasies div > div img:last-child {
   width: 100%;
+<<<<<<< HEAD
   margin-bottom: 30px;
 }
 
 .fantasies div > div:nth-last-child(2) {
+=======
+  margin-bottom: 40px;
+}
+
+.fantasies div > div:nth-child(2) {
+>>>>>>> mobile
   padding-top: 72px;
 }
 
@@ -1012,8 +1234,13 @@ form button {
 }
 
 @media screen and (max-width: 1130px) {
+<<<<<<< HEAD
   .fantasies div > div:nth-last-child(2),
   .fantasies div > div:last-child {
+=======
+  .fantasies div > div:nth-child(2),
+  .fantasies div > div:nth-child(3) {
+>>>>>>> mobile
     margin-top: auto;
   }
 }
@@ -1125,10 +1352,13 @@ form button {
 }
 
 @media screen and (max-width: 600px) {
+<<<<<<< HEAD
   /* .our-clients div div div:first-child {
     padding: 0px 10px 45px;
   } */
 
+=======
+>>>>>>> mobile
   .our-clients div div div:first-child {
     padding: 20px 20px 65px;
     margin-top: 20px;
@@ -1185,8 +1415,17 @@ form button {
   margin-top: 42px;
 }
 
+<<<<<<< HEAD
 .bottom-black-form form div:first-of-type,
 .bottom-black-form form div:nth-last-of-type(4) {
+=======
+.bottom-black-form form div:nth-last-of-type(4) {
+  flex-basis: 100%;
+}
+
+.bottom-black-form form div:first-of-type,
+.bottom-black-form form div:nth-child(3) {
+>>>>>>> mobile
   flex-basis: 45%;
 }
 
@@ -1213,6 +1452,14 @@ form button {
   width: auto;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 625px) {
+  .bottom-black-form {
+    width: 91vw;
+  }
+}
+>>>>>>> mobile
 /* ============================ Section Map ==================== */
 .map-bg {
   padding-top: 222px;
@@ -1256,7 +1503,22 @@ form button {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+<<<<<<< HEAD
 /* ============================ mobile ajastments ======================= */
+=======
+/* ============================================================================= */
+/* ============================ mobile ajastments ============================== */
+/* ============================================================================= */
+
+@media screen and (min-width: 530px) {
+  .projects-picture > div button,
+  .fantasies .mobile-slider,
+  .mobile-question {
+    display: none;
+  }
+}
+
+>>>>>>> mobile
 @media screen and (max-width: 530px) {
   .header-block-nav,
   .button-header,
@@ -1265,17 +1527,66 @@ form button {
   .white-building-bg,
   .fantasies ul,
   .fantasies div > div:nth-last-child(2),
+<<<<<<< HEAD
   .fantasies div > div:last-child,
   .our-clients-bg {
+=======
+  .our-clients-bg,
+  .fantasies > div > div:nth-child(2),
+  .fantasies::before {
+>>>>>>> mobile
     display: none;
   }
 
   .wrapper,
+<<<<<<< HEAD
   .wrapper-header {
+=======
+  .wrapper-header,
+  .wrapper-2,
+  .mobile-slider {
+>>>>>>> mobile
     padding-left: 18px;
     padding-right: 18px;
   }
 
+<<<<<<< HEAD
+=======
+  .section-projects,
+  .bg131313,
+  .half-131313::before,
+  .half-131313,
+  .section-camera,
+  input,
+  .mobile-slider::before,
+  .bottom-black-form form,
+  .bottom-black-form input,
+  .map-bg {
+    background-color: #181818;
+  }
+
+  input {
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+
+  form div {
+    width: 100%;
+  }
+
+  .phone,
+  .section-camera p,
+  input,
+  input::placeholder,
+  form > div.checkbox > label {
+    color: white;
+  }
+
+  label {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+>>>>>>> mobile
   .wrapper-header {
     justify-content: space-between;
     height: 57px;
@@ -1284,13 +1595,20 @@ form button {
   .phone {
     margin-right: 0;
     text-decoration: none;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> mobile
   }
 
   .header-block-contacts {
     min-width: auto;
   }
 
+<<<<<<< HEAD
+=======
+  /* ==================================================== Section title ================ */
+>>>>>>> mobile
   .section-title {
     padding-top: 89px;
     padding-bottom: 65px;
@@ -1322,4 +1640,377 @@ form button {
   .section-title .button span {
     display: none;
   }
+<<<<<<< HEAD
+=======
+
+  /* ==================================================== Section projects ================= */
+  .projects-picture > div > img:last-of-type {
+    display: none;
+  }
+
+  .projects-picture > div img:first-of-type {
+    display: block;
+  }
+
+  .section-projects-flex {
+    padding: 35px 0 62px;
+  }
+
+  .section-projects h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    font-stretch: 7%;
+    margin-bottom: 30px;
+  }
+
+  .section-projects p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .projects-title {
+    order: 1;
+  }
+
+  .projects-details {
+    order: 3;
+  }
+
+  .projects-slider-nav {
+    order: 4;
+  }
+
+  .projects-picture {
+    order: 2;
+    margin-top: 75px;
+  }
+
+  .projects-details div {
+    width: 50%;
+  }
+
+  .section-projects h3 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .projects-details p {
+    text-align: left;
+  }
+
+  /* ==================================================== Section camera ================= */
+  .section-camera h2,
+  .section-types-of-repair h2 {
+    font-size: 22px;
+    height: 73px;
+  }
+
+  .half-131313 {
+    padding-top: 41px;
+  }
+
+  .half-131313::before {
+    display: none;
+  }
+
+  .video button {
+    width: 37px;
+    height: 37px;
+  }
+
+  .video {
+    box-shadow: none;
+  }
+
+  .video button img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .video > div {
+    margin-top: -18px;
+  }
+
+  .video::before {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  button:hover {
+    box-shadow: none;
+  }
+
+  .section-camera p {
+    font-size: 11px;
+    line-height: 19px;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    padding-top: 23px;
+  }
+
+  input {
+    padding-top: 0;
+  }
+
+  form div {
+    margin-top: 60px;
+  }
+
+  form > div:nth-child(1) {
+    order: 1;
+  }
+
+  form > div:nth-child(2) {
+    order: 2;
+  }
+
+  form > button {
+    order: 4;
+    margin-bottom: -25px;
+    font-size: 13px;
+  }
+
+  form > div.checkbox {
+    order: 3;
+    margin: 25px 0 9px;
+  }
+
+  .section-types-of-repair {
+    margin-top: 83px;
+  }
+
+  .repair {
+    margin-top: 38px;
+    flex-direction: column;
+  }
+
+  .repair > div {
+    max-width: none;
+    width: 100%;
+  }
+
+  .repair div div:nth-of-type(1) {
+    margin: 0 70px -20px 0;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    padding: 21px 31px 37px 31px;
+  }
+
+  .repair img {
+    margin-bottom: -135px;
+  }
+
+  .repair h3 {
+    font-size: 15px;
+  }
+
+  .repair li {
+    line-height: 22px;
+  }
+
+  .price {
+    font-size: 15px;
+    padding: 11px 19px;
+    margin: 0 0 59px 0;
+  }
+
+  .fantasies {
+    margin-top: 0;
+  }
+
+  .fantasies h1 {
+    font-size: 22px;
+    margin: -8px auto 34px;
+    padding: 0 0 0 0;
+    text-align: center;
+    max-width: 310px;
+    line-height: 30px;
+  }
+
+  .bottom-black-form {
+    padding: 0;
+    margin: 0;
+  }
+
+  .repair-overhaul > img:nth-child(1) {
+    display: block;
+  }
+
+  .repair-overhaul > img:nth-child(2) {
+    display: none;
+  }
+
+  .fantasies > div .fantasies > div.mobile-slider > div {
+    display: block;
+  }
+
+  .fantasies > div,
+  .fantasies div > div:first-child,
+  .fantasies .mobile-slider .shadow {
+    display: block;
+  }
+
+  .fantasies div > div:first-child {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .mobile-slider,
+  .mobile-slider > div {
+    position: relative;
+  }
+
+  .mobile-slider > div > img,
+  .mobile-slider .shadow .nav,
+  .fantasies div > div img:first-child,
+  .fantasies div > div img:last-child {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-slider .shadow .nav {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -31px;
+  }
+
+  .mobile-slider .shadow .nav button {
+    border-radius: 50% 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 13px;
+  }
+
+  .fantasies .mobile-slider .shadow .nav button img {
+    width: 6px;
+    height: 11px;
+  }
+
+  .fantasies .wrapper-2 {
+    padding: 0;
+  }
+
+  .mobile-slider::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-image: none;
+  }
+
+  .bottom-black-form {
+    width: 100%;
+  }
+
+  .bottom-black-form form {
+    padding: 0 18px 0;
+  }
+
+  .bottom-black-form > form > div:nth-child(2) {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .bottom-black-form > form > div:nth-child(3) {
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  .bottom-black-form > form > div:nth-child(4) {
+    order: 3;
+    display: none;
+  }
+
+  .bottom-black-form > form > div:nth-child(5) {
+    order: 4;
+  }
+
+  .bottom-black-form > form > div:nth-child(6) {
+    order: 5;
+  }
+
+  .bottom-black-form > form > div:nth-child(7) {
+    order: 6;
+  }
+
+  .bottom-black-form form input {
+    border-bottom: 1px solid white;
+  }
+
+  .bottom-black-form form h3 {
+    margin: 50px auto -10px;
+  }
+
+  .bottom-black-form form div {
+    margin-top: 62px;
+  }
+
+  .bottom-black-form form div.checkbox {
+    margin-top: 20px;
+  }
+
+  .bottom-black-form form > div:last-child button {
+    margin-top: 55px;
+  }
+
+  .map-bg {
+    background-image: none;
+    margin: 0 0 0 0;
+    padding: 45px 0 49px 0;
+  }
+
+  .map-bg > div {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .map-bg > div > div:nth-child(1) {
+    order: 2;
+  }
+
+  .map-bg > div > .map {
+    order: 1;
+    width: 100%;
+    height: 255px;
+    margin-top: 0;
+  }
+
+  .map-bg::before {
+    display: none;
+  }
+
+  .map-bg h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 41px;
+    margin-bottom: 20px;
+  }
+
+  .map-bg a img {
+    width: 39px;
+    height: 39px;
+  }
+
+  .map-bg .map {
+    background-image: url(../images/map-2.jpg);
+  }
+
+  footer {
+    display: none;
+  }
+>>>>>>> mobile
 }

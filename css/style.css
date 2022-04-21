@@ -10,13 +10,10 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD
-=======
 div > img {
   display: block;
 }
 
->>>>>>> mobile
 body,
 .button,
 .white-building li span {
@@ -164,11 +161,7 @@ h2,
   .wrapper-2 {
     max-width: 1440px;
     margin: 0 auto;
-<<<<<<< HEAD
-    padding: 0;
-=======
     /* padding: 0; */
->>>>>>> mobile
   }
 }
 
@@ -282,13 +275,9 @@ h2,
 .white-building div:nth-last-of-type(2),
 .white-building > div:nth-last-of-type(2) input,
 .bottom-black-form form,
-<<<<<<< HEAD
-.bottom-black-form input {
-=======
 .bottom-black-form input,
 .bg131313,
 .half-131313::before {
->>>>>>> mobile
   background-color: #131313;
 }
 
@@ -299,10 +288,7 @@ h2,
   height: 516px;
   padding: 191px 0 0;
   position: relative;
-<<<<<<< HEAD
-=======
   margin-bottom: -1px;
->>>>>>> mobile
 }
 
 @media screen and (min-width: 1441px) {
@@ -362,19 +348,12 @@ h2,
 
 /* =========================== Section-projects ======================== */
 .section-projects-flex {
-<<<<<<< HEAD
-  padding: 107px 0 415px;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-=======
   height: 552px;
   padding: 107px 0 65px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
->>>>>>> mobile
 }
 
 .section-projects h2,
@@ -406,39 +385,23 @@ input,
   line-height: 27px;
 }
 
-<<<<<<< HEAD
-.projects-text {
-  max-width: 442px;
-  width: 30vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-=======
 .section-projects p {
   margin-right: 20px;
->>>>>>> mobile
 }
 
 .projects-slider-nav {
   margin-top: auto;
-<<<<<<< HEAD
-  align-content: flex-end;
-=======
   /* align-content: flex-end; */
->>>>>>> mobile
   width: 206px;
   padding-top: 10px;
 }
 
-<<<<<<< HEAD
-=======
 .projects-title,
 .projects-details {
   width: 34vw;
   max-width: 450px;
 }
 
->>>>>>> mobile
 .projects-details {
   margin-top: 15px;
   display: flex;
@@ -446,10 +409,7 @@ input,
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-=======
 .projects-details,
->>>>>>> mobile
 .section-projects h3,
 .section-camera p,
 .repair h3,
@@ -468,29 +428,12 @@ input,
 
 .projects-details p {
   line-height: 21px;
-<<<<<<< HEAD
-}
-
-.projects-details div {
-  width: 190px;
-}
-
-@media screen and (max-width: 1024px) {
-  .projects-details div {
-    width: 13vw;
-    padding-right: 2vw;
-  }
-  .section-projects h2 {
-    margin-top: 0px;
-  }
-=======
   margin-right: 20px;
 }
 
 .projects-details div {
   width: 12vw;
   margin-right: 1vw;
->>>>>>> mobile
 }
 
 .projects-slider-nav li {
@@ -536,11 +479,7 @@ input,
 
 .projects-picture {
   width: 47vw;
-<<<<<<< HEAD
-  /* min-width: 680px; */
-=======
   max-width: 680px;
->>>>>>> mobile
 }
 
 .projects-picture ul {
@@ -568,22 +507,6 @@ input,
   box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 768px) {
-  .section-projects-flex {
-    display: block;
-  }
-  .projects-text,
-  .projects-picture {
-    width: 100%;
-    max-width: 100%;
-    justify-content: space-between;
-  }
-
-  .projects-text {
-    flex-direction: row;
-    flex-wrap: wrap;
-=======
 .projects-picture > div {
   position: relative;
 }
@@ -669,34 +592,16 @@ input,
     max-width: 100%;
     margin-top: 40px;
     /* justify-content: space-between; */
->>>>>>> mobile
   }
 
   .projects-title,
   .projects-details {
-<<<<<<< HEAD
-    flex-basis: 47%;
-=======
     width: 100%;
     max-width: none;
->>>>>>> mobile
   }
 
   .projects-details {
     margin-top: 0;
-<<<<<<< HEAD
-  }
-
-  .projects-slider-nav {
-    /* flex-basis: 100%; */
-    margin: 20px auto;
-  }
-}
-
-/* =========================== Section camera ======================== */
-.section-camera {
-  margin-top: -330px;
-=======
     justify-content: space-between;
   }
 
@@ -727,7 +632,6 @@ input,
   top: 0;
   left: 0;
   z-index: 0;
->>>>>>> mobile
 }
 
 .video {
@@ -747,10 +651,6 @@ input,
   top: 50%;
   margin-top: -42px;
   width: 100%;
-<<<<<<< HEAD
-  /* height: 434px; */
-=======
->>>>>>> mobile
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -767,13 +667,8 @@ input,
 }
 
 .section-camera h2 {
-<<<<<<< HEAD
-  height: 68px;
-  margin-bottom: 28px;
-=======
   height: 70px;
   margin: -1px 0;
->>>>>>> mobile
   background: url(../images/camera.svg) bottom center no-repeat;
 }
 
@@ -834,11 +729,7 @@ form button {
   width: 231px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 768px) {
-=======
 @media screen and (max-width: 850px) {
->>>>>>> mobile
   .section-camera input {
     width: 100%;
   }
@@ -956,13 +847,10 @@ form button {
   margin: -10px 30px 0px;
 }
 
-<<<<<<< HEAD
-=======
 .repair-overhaul > img:nth-child(1) {
   display: none;
 }
 
->>>>>>> mobile
 @media screen and (max-width: 768px) {
   .repair div div:nth-of-type(1) {
     margin: 0px 10px;
@@ -1198,13 +1086,8 @@ form button {
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-.fantasies div > div:nth-last-child(2),
-.fantasies div > div:last-child {
-=======
 .fantasies div > div:nth-child(2),
 .fantasies div > div:nth-child(3) {
->>>>>>> mobile
   width: 24.5vw;
   max-width: 353px;
   margin-left: 43px;
@@ -1213,17 +1096,10 @@ form button {
 .fantasies div > div img:first-child,
 .fantasies div > div img:last-child {
   width: 100%;
-<<<<<<< HEAD
-  margin-bottom: 30px;
-}
-
-.fantasies div > div:nth-last-child(2) {
-=======
   margin-bottom: 40px;
 }
 
 .fantasies div > div:nth-child(2) {
->>>>>>> mobile
   padding-top: 72px;
 }
 
@@ -1234,13 +1110,8 @@ form button {
 }
 
 @media screen and (max-width: 1130px) {
-<<<<<<< HEAD
-  .fantasies div > div:nth-last-child(2),
-  .fantasies div > div:last-child {
-=======
   .fantasies div > div:nth-child(2),
   .fantasies div > div:nth-child(3) {
->>>>>>> mobile
     margin-top: auto;
   }
 }
@@ -1352,13 +1223,6 @@ form button {
 }
 
 @media screen and (max-width: 600px) {
-<<<<<<< HEAD
-  /* .our-clients div div div:first-child {
-    padding: 0px 10px 45px;
-  } */
-
-=======
->>>>>>> mobile
   .our-clients div div div:first-child {
     padding: 20px 20px 65px;
     margin-top: 20px;
@@ -1415,17 +1279,12 @@ form button {
   margin-top: 42px;
 }
 
-<<<<<<< HEAD
-.bottom-black-form form div:first-of-type,
-.bottom-black-form form div:nth-last-of-type(4) {
-=======
 .bottom-black-form form div:nth-last-of-type(4) {
   flex-basis: 100%;
 }
 
 .bottom-black-form form div:first-of-type,
 .bottom-black-form form div:nth-child(3) {
->>>>>>> mobile
   flex-basis: 45%;
 }
 
@@ -1452,14 +1311,11 @@ form button {
   width: auto;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 625px) {
   .bottom-black-form {
     width: 91vw;
   }
 }
->>>>>>> mobile
 /* ============================ Section Map ==================== */
 .map-bg {
   padding-top: 222px;
@@ -1503,9 +1359,6 @@ form button {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-<<<<<<< HEAD
-/* ============================ mobile ajastments ======================= */
-=======
 /* ============================================================================= */
 /* ============================ mobile ajastments ============================== */
 /* ============================================================================= */
@@ -1518,7 +1371,6 @@ form button {
   }
 }
 
->>>>>>> mobile
 @media screen and (max-width: 530px) {
   .header-block-nav,
   .button-header,
@@ -1527,31 +1379,20 @@ form button {
   .white-building-bg,
   .fantasies ul,
   .fantasies div > div:nth-last-child(2),
-<<<<<<< HEAD
-  .fantasies div > div:last-child,
-  .our-clients-bg {
-=======
   .our-clients-bg,
   .fantasies > div > div:nth-child(2),
   .fantasies::before {
->>>>>>> mobile
     display: none;
   }
 
   .wrapper,
-<<<<<<< HEAD
-  .wrapper-header {
-=======
   .wrapper-header,
   .wrapper-2,
   .mobile-slider {
->>>>>>> mobile
     padding-left: 18px;
     padding-right: 18px;
   }
 
-<<<<<<< HEAD
-=======
   .section-projects,
   .bg131313,
   .half-131313::before,
@@ -1586,7 +1427,6 @@ form button {
     color: rgba(255, 255, 255, 0.5);
   }
 
->>>>>>> mobile
   .wrapper-header {
     justify-content: space-between;
     height: 57px;
@@ -1595,20 +1435,13 @@ form button {
   .phone {
     margin-right: 0;
     text-decoration: none;
-<<<<<<< HEAD
-    color: white;
-=======
->>>>>>> mobile
   }
 
   .header-block-contacts {
     min-width: auto;
   }
 
-<<<<<<< HEAD
-=======
   /* ==================================================== Section title ================ */
->>>>>>> mobile
   .section-title {
     padding-top: 89px;
     padding-bottom: 65px;
@@ -1640,8 +1473,6 @@ form button {
   .section-title .button span {
     display: none;
   }
-<<<<<<< HEAD
-=======
 
   /* ==================================================== Section projects ================= */
   .projects-picture > div > img:last-of-type {
@@ -2012,5 +1843,4 @@ form button {
   footer {
     display: none;
   }
->>>>>>> mobile
 }

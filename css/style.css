@@ -128,7 +128,9 @@ h2,
 .map-bg h2,
 .nav a:hover,
 .fantasies a:hover,
-.projects-picture .activ {
+.projects-picture .activ,
+.phone a,
+.map-bg h2 a {
   color: #e3b873;
 }
 
@@ -154,11 +156,6 @@ h2,
 
 .wrapper-2 {
   padding: 0 7vw;
-}
-
-.phone a {
-  color: inherit;
-  text-decoration: inherit;
 }
 
 @media screen and (min-width: 1441px) {

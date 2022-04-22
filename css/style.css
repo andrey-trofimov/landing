@@ -156,6 +156,11 @@ h2,
   padding: 0 7vw;
 }
 
+.phone a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 @media screen and (min-width: 1441px) {
   .wrapper,
   .wrapper-2 {

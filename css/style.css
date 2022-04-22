@@ -54,6 +54,14 @@ h2,
   text-align: center;
 }
 
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
 .section-camera p,
 .our-clients p {
   margin-left: auto;
@@ -128,9 +136,7 @@ h2,
 .map-bg h2,
 .nav a:hover,
 .fantasies a:hover,
-.projects-picture .activ,
-.phone a,
-.map-bg h2 a {
+.projects-picture .activ {
   color: #e3b873;
 }
 

@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=Edge" />
   <title>IC "Repair Design Project"</title>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/slider.js"></script>
 </head>
 
 <body>
@@ -67,74 +68,78 @@
         <div class="section-projects-flex">
           <div class="projects-title">
             <h2>Completed<br />projects</h2>
-            <p>
-              Only a&nbsp;small part of&nbsp;the work performed by&nbsp;our
-              company is&nbsp;presented on&nbsp;the site. For 14&nbsp;years
-              on&nbsp;in&nbsp;the construction market we&nbsp;have made
-              happy more than 1000 families
+            <p id="project-description">
+              Only a&nbsp;small part of&nbsp;the work performed by&nbsp;our company
+              is&nbsp;presented on&nbsp;the site. For 14&nbsp;years on&nbsp;in&nbsp;the
+              construction market we&nbsp;have made happy more than 1000 families
             </p>
           </div>
           <div class="projects-details">
             <div>
               <h3>City:</h3>
-              <p>Rostov-on-Don<br />LCD admiral</p>
+              <p id="project-city">Rostov-on-Don<br />LCD admiral</p>
             </div>
             <div>
               <h3>apartment area:</h3>
-              <p>81 m2</p>
+              <p id="project-area">81 m2</p>
             </div>
             <div>
               <h3>Repair time:</h3>
-              <p>3.5 months</p>
+              <p id="project-time">3.5 months</p>
             </div>
             <div>
               <h3>Repair Cost:</h3>
-              <p>Upon request</p>
+              <p id="project-cost">Upon request</p>
             </div>
           </div>
 
           <ul class="projects-slider-nav">
             <li>
-              <a href="#" class="left-arrow">
-                <img src="./images/blank.png" width="41" height="13" /></a>
+              <a class="left-arrow">
+                <img src="./images/blank.png" width="41" height="13" />
+              </a>
             </li>
             <li>
-              <a href="#" class="activ">
-                <img src="./images/blank.png" width="10" height="13" /></a>
+              <a class="dot active">
+                <img src="./images/blank.png" width="10" height="13" />
+              </a>
             </li>
             <li>
-              <a href="#" class="dot">
-                <img src="./images/blank.png" width="10" height="13" /></a>
+              <a class="dot"> <img src="./images/blank.png" width="10" height="13" /></a>
             </li>
             <li>
-              <a href="#" class="dot">
-                <img src="./images/blank.png" width="10" height="13" /></a>
+              <a class="dot"> <img src="./images/blank.png" width="10" height="13" /></a>
             </li>
             <li>
-              <a href="#" class="right-arrow">
-                <img src="./images/blank.png" width="41" height="13" /></a>
+              <a class="right-arrow">
+                <img src="./images/blank.png" width="41" height="13" />
+              </a>
             </li>
           </ul>
 
           <!-- ============================ slider ======================================= -->
           <div class="projects-picture">
-            <ul>
-              <li class="activ beige">Rostov-on-Don, Admiral</li>
-              <li>Sochi Thieves</li>
-              <li>Rostov-on-Don Patriotic</li>
+            <ul class="projects-list">
+              <li><a class="active">Rostov-on-Don, Admiral</a></li>
+              <li><a>Sochi Thieves</a></li>
+              <li><a>Rostov-on-Don Patriotic</a></li>
             </ul>
-            <div class="shadow">
-              <img src="./images/slider-image-admiral-2.jpg" alt="Admiral-2" />
-              <img src="./images/slider-image-admiral.jpg" alt="Admiral" />
+            <div class="slider">
+              <img src="./images/slider/admiral.jpg" alt="Rostov-on-Don Admiral" />
               <div class="nav">
-                <button class="button keep"><img src="./images/small-left-arrow.svg"></button>
-                <button class="button keep"><img src="./images/small-right-arrow.svg"></button>
+                <a class="left-arrow-mobile">
+                  <img src="./images/small-left-arrow.svg" />
+                </a>
+                <a class="right-arrow-mobile">
+                  <img src="./images/small-right-arrow.svg" />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- ============================ Section camera ======================================= -->
     <section class="section-camera">
